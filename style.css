@@ -6,7 +6,7 @@ body {
   
   /* Set background color */
   body {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
   }
   
   /* Center survey form on the page */
@@ -51,7 +51,7 @@ body {
   }
   
   /* Style submit button */
-  button[type="submit"] {
+  .submit {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;

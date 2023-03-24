@@ -1,0 +1,92 @@
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Set background color */
+  body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Center survey form on the page */
+  #survey-form {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  /* Style form labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style dropdowns */
+  select {
+    height: 35px;
+  }
+  
+  /* Style radio buttons and checkboxes */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Style submit button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style submit button on hover */
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style form errors */
+  input:invalid,
+  textarea:invalid {
+    border-color: red;
+  }
+  
+  input:invalid + span,
+  textarea:invalid + span {
+    color: red;
+    font-style: italic;
+    font-size: 14px;
+  }
+  
+  input:valid,
+  textarea:valid {
+    border-color: #ccc;
+  }
+  
+  input:valid + span,
+  textarea:valid + span {
+    color: #ccc;
+    font-style: normal;
+    font-size: 14px;
+  }
+  
